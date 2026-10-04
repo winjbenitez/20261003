@@ -12,5 +12,9 @@ public class PruebaController {
      public String unEndpoint(){
          return "hola a todos";
      }
+    @GetMapping("/despedida")
+    public String otroEndpoint(){
+        return "Hasta la siguiente semana";
+    }
 
 }
